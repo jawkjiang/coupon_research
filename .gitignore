@@ -1,0 +1,8 @@
+data/*
+.idea/*
+
+# 但不忽略 data 文件夹本身
+!data/
+
+# 如果需要保留 data 文件夹中的某些特定文件或子目录，可以添加相应规则
+!data/.gitkeep
